@@ -1,0 +1,525 @@
+/* homepage navbar */
+
+.logo-img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    text-shadow: 2px 3px 4px rgb(0 0 0 / 34%);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-link {
+    margin: 0px 8px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #f2f2f7;
+    padding: 20px;
+}
+
+.collapse {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    padding-right: 30px;
+}
+
+.nav-link.active {
+    color: blue;
+    font-weight: 600;
+}
+
+/* homemainbg (homepage section2) */
+
+.homemainbg {
+    background-image: url('../assets/mainbg.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.animation {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.texthomeh1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.texthomep {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.texthomebtn {
+    border: none;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.texthomebtn:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* homepage section 3 */
+
+.rectangel {
+    height: 292px;
+    width: 500px;
+    z-index: 0;
+}
+
+.sec3-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec3-card {
+    position: relative;
+    height: 184px;
+    width: 100%;
+    background: transparent;
+}
+
+.blarbg1 {
+    position: absolute;
+    top: -46px;
+    left: 187px;
+    width: 318px;
+    height: 236px;
+}
+
+.captown {
+    position: absolute;
+    left: 236px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tempretur {
+    position: absolute;
+    left: 236px;
+    top: 27px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.day {
+    position: absolute;
+    left: 236px;
+    top: 71px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.partly {
+    position: absolute;
+    left: 362px;
+    top: 76px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.sec3infoimg {
+    position: absolute;
+    left: 363px;
+    top: 5px;
+    height: 70px;
+    width: 78px;
+}
+
+.hr {
+    position: absolute;
+    left: 231px;
+    top: 96px;
+    width: 222px;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
+.whater {
+    position: absolute;
+    left: 231px;
+    top: 124px;
+}
+
+.par1 {
+    position: absolute;
+    left: 257px;
+    top: 128px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wether {
+    position: absolute;
+    left: 315px;
+    top: 127px;
+}
+
+.par2 {
+    position: absolute;
+    left: 342px;
+    top: 128px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sun {
+    position: absolute;
+    left: 397px;
+    top: 127px;
+}
+
+.par3 {
+    position: absolute;
+    left: 425px;
+    top: 128px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sec3c2 {
+    bottom: 9px;
+    left: -194px;
+}
+
+/* homesection4 */
+
+.section4 {
+    height: 400px;
+    overflow: hidden;
+}
+
+.sec4bg {
+    object-fit: cover;
+    height: 100%;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+}
+
+.custom-weather-card {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* homesection5 */
+
+.section5 {
+    height: 400px;
+}
+
+.section5 ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 155px;
+    margin-top: 30px;
+}
+
+.section5 ul a {
+    text-decoration: none;
+    color: rgba(142, 142, 142, 1);
+}
+
+.section5 ul a:hover {
+    text-decoration: underline;
+    color: rgba(30, 100, 240, 1);
+}
+
+.sec5card {
+    height: 295px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 18px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.sec5card:hover {
+    background-color: blue;
+}
+
+.sec5card:hover .sec5sp1,
+.sec5card:hover .sec5sp2 {
+    background-color: white;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.sec5card:hover span:not(.sec5sp1):not(.sec5sp2) {
+    color: white;
+}
+
+.sec5card:hover .sec4we,
+.sec5card:hover .sec5sun {
+    filter: invert(1);
+}
+
+.img1sec5 {
+    position: absolute;
+    height: 100px;
+    left: 44px;
+    top: 18px;
+}
+
+.sec5sp1 {
+    background-color: rgba(254, 208, 201, 1);
+    padding: 3px 0px 0px 9px;
+    border-radius: 30px;
+    width: 46px;
+    position: absolute;
+    top: 128px;
+    left: 35px;
+    height: 25px;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+.sec5sp2 {
+    background-color: rgba(254, 208, 201, 1);
+    padding: 3px 0px 0px 9px;
+    border-radius: 30px;
+    width: 63px;
+    position: absolute;
+    top: 128px;
+    left: 100px;
+    height: 25px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.sec5sp3 {
+    position: absolute;
+    top: 166px;
+    left: 34px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.sec5sp4 {
+    position: absolute;
+    top: 175px;
+    left: 117px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.sec4we {
+    position: absolute;
+    top: 224px;
+    left: 33px;
+    height: 15px;
+}
+
+.sec5sp5 {
+    position: absolute;
+    top: 222px;
+    left: 57px;
+    height: 15px;
+    font-size: 11px;
+}
+
+.sec5sun {
+    position: absolute;
+    top: 223px;
+    left: 114px;
+    height: 15px;
+}
+
+.sec5sp6 {
+    position: absolute;
+    top: 222px;
+    left: 136px;
+    font-size: 11px;
+}
+
+.sec5sp7 {
+    position: absolute;
+    top: 255px;
+    left: 77px;
+    font-size: 14px;
+}
+
+.sec5cards {
+    display: flex;
+    margin-top: 34px;
+    justify-content: space-around;
+}
+
+.img2sec5 {
+    position: absolute;
+    height: 100px;
+    left: 59px;
+    top: 18px;
+}
+
+/* homesection6 */
+
+.section6 {
+    height: 336px;
+}
+
+.sec6bg {
+    background-color: rgba(244, 244, 244, 1);
+    height: 320px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 126px;
+}
+
+.sec6left {
+    width: 340px;
+}
+
+.sec6imgcards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sec6imgcard {
+    position: relative;
+}
+
+.paris1sec6 {
+    height: 257px;
+}
+
+.sec6sun {
+    position: absolute;
+    left: 42px;
+    top: 15px;
+    height: 80px;
+}
+
+.sec6sp1 {
+    position: absolute;
+    left: 18px;
+    top: 116px;
+    font-size: 31px;
+    color: white;
+}
+
+.sec6sp2 {
+    position: absolute;
+    left: 45px;
+    top: 174px;
+    font-size: 37px;
+    color: white;
+}
+
+.sec6h1 {
+    width: 225px;
+}
+
+.sec6p {
+    word-spacing: 7px;
+}
+
+/* homesection7 */
+
+.surica {
+    align-items: flex-start !important;
+    margin-left: 30px;
+}
+
+a.text-white:hover {
+    color: rgba(251, 176, 59, 1) !important;
+}
+
+.bigca {
+    font-weight: 300;
+    gap: 0rem !important;
+}
+
+.weather-card img {
+    filter: invert(1);
+}
+
+/* homesection8 */
+
+.section8 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* homefooter */
+
+.footer {
+    background-color: black;
+}
+
+.footerlogo {
+    height: 50px;
+}
+
+.footersp1 {
+    font-size: 24px;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid white;
+    width: 97%;
+    opacity: 0.8;
+}
+
+.footersp2 {
+    font-size: 14px;
+}
+
+.footersvgs img {
+    width: 24px;
+    height: 24px;
+}
+
+/* allmeadiaquieri */
+
+@media (max-width: 1200px) {
+
+    /* homepagesection3 */
+    .pocket .row {
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .pocket .col-lg-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .sec3c2 {
+        left: -188px;
+    }
+}

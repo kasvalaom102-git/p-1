@@ -1,0 +1,120 @@
+/* gallerypagenavbar */
+
+.logo-img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    text-shadow: 2px 3px 4px rgb(0 0 0 / 34%);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-link {
+    margin: 0px 8px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #f2f2f7;
+    padding: 20px;
+}
+
+.collapse {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    padding-right: 30px;
+}
+
+.nav-link.active {
+    color: blue;
+    font-weight: 600;
+}
+
+/* gallerypagesection2 */
+
+.section2 {
+    position: relative;
+}
+
+.sec2sp1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+}
+
+/* gallerypagesection3 */
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.card h6 {
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 0.85rem;
+}
+
+.custom-width-btn {
+  width: 22vw;       
+  max-width: 300px;    
+  min-width: 150px;  
+  margin: 0 auto;     
+  display: block;     
+}
+
+.btn-primary {
+  background-color: #1e62f2;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #155ce0;
+}
+
+/* gallerypagefooter */
+
+.footer {
+    background-color: black;
+}
+
+.footerlogo {
+    height: 50px;
+}
+
+.footersp1 {
+    font-size: 24px;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid white;
+    width: 97%;
+    opacity: 0.8;
+}
+
+.footersp2 {
+    font-size: 14px;
+}
+
+.footersvgs img {
+    width: 24px;
+    height: 24px;
+}

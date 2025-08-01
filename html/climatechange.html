@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Climate Change</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/climatechange.css">
+
+</head>
+
+<body>
+
+    <!-- climetpage navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="">
+                <img src="../assets/mainlogo.png" alt="Logo" class="logo-img">
+                Weathercoach
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="http://127.0.0.1:3000/html/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/climatechange.html">Climate Change</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- climatechangesection2 -->
+
+    <section class="section2 position-relative">
+        <img class="p2sec2img img-fluid w-100" src="../assets/p2sec2img.png" alt="">
+        <span class="sec2sp1 position-absolute">Climate Change</span>
+    </section>
+
+
+    <!-- climatechangesection3 -->
+
+    <section class="section3">
+        <h3 class="sec3-title">Today’s Weather Details</h3>
+
+        <div class="sec3info">
+            <div class="info-left">
+                <img src="../assets/pa2sec3img.png" alt="weather icon" class="weather-icon">
+                <div class="location-details">
+                    <h2>San Francisco</h2>
+                    <span class="date">Monday, May 23</span>
+                    <span class="condition">Partly Cloudy</span>
+                </div>
+            </div>
+            <div class="info-right">
+                <span>Precipitation : 0%</span>
+                <span>Humidity : 51%</span>
+                <span>Wind : 16 Km/h</span>
+            </div>
+        </div>
+
+        <div class="sec3-tabs">
+            <a href="#" class="weather-tab active" data-type="temperature">Temperature</a>
+            <span class="divider">|</span>
+            <a href="#" class="weather-tab" data-type="precipitation">Precipitation</a>
+            <span class="divider">|</span>
+            <a href="#" class="weather-tab" data-type="wind">Wind</a>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <div class="sec3cards">
+            <div class="sec3card"><span>Fri</span><img src="../assets/sun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Sat</span><img src="../assets/barishwsun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Sun</span><img src="../assets/sun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Mon</span><img src="../assets/sun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Tue</span><img src="../assets/barishwsun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Wed</span><img src="../assets/img1sec5.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Thu</span><img src="../assets/sun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Fri</span><img src="../assets/sun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Sat</span><img src="../assets/barishwsun.png" alt=""><span>35° 27°</span></div>
+            <div class="sec3card"><span>Sun</span><img src="../assets/sun.png" alt=""><span>35° 27°</span></div>
+        </div>
+    </section>
+
+
+    <!-- climatechangefooter  -->
+
+    <footer class="footer bg-black text-white py-4 position-relative">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center mb-4">
+                <img src="../assets/mainlogo.png" class="footerlogo me-2" alt="">
+                <span class="footersp1 m-0">Weathercoach</span>
+            </div>
+
+            <ul class="nav justify-content-center flex-wrap mb-3">
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/index.html"
+                        class="nav-link px-2 text-white">Home</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/climatechange.html"
+                        class="nav-link px-2 text-white">Climate Change</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/news.html"
+                        class="nav-link px-2 text-white">News</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/map.html"
+                        class="nav-link px-2 text-white">Map</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/gallery.html"
+                        class="nav-link px-2 text-white">Gallery</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/contact.html"
+                        class="nav-link px-2 text-white">Contact</a></li>
+            </ul>
+
+            <hr class="footer-line my-3">
+
+            <div class="container px-3">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4">
+                    <span class="footersp2 text-white text-center text-md-start mb-2 mb-md-0">
+                        © 2022 Weathercoach. All rights reserved
+                    </span>
+
+                    <div class="footersvgs d-flex justify-content-center justify-content-md-end gap-3">
+                        <img src="../assets/linkdinsvg.svg" alt="">
+                        <img src="../assets/instasvg.svg" alt="">
+                        <img src="../assets/twitersvg.svg" alt="">
+                        <img src="../assets/facebooksvg.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="../js/climatechange.js"></script>
+</body>
+
+</html>

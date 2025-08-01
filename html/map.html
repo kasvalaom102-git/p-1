@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/map.css">
+</head>
+
+<body>
+    <!-- mappage navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="">
+                <img src="../assets/mainlogo.png" alt="Logo" class="logo-img">
+                Weathercoach
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="http://127.0.0.1:3000/html/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/climatechange.html">Climate Change</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- mappagesection2 -->
+
+    <section class="section2 position-relative">
+        <img class="p2sec2img img-fluid w-100" src="../assets/mappagemainimg.png" alt="">
+        <span class="sec2sp1 position-absolute">Map</span>
+    </section>
+
+
+    <!-- mappagesection3 -->
+
+    <section class="section-3 py-5">
+        <div class="container">
+            <h4 class="text-center mb-4 fw-bold">Europe Map Finder</h4>
+            <div class="row text-center mb-5">
+                <div class="col-md-4 mb-3">
+                    <div class="p-2">
+                        <div class="img-container">
+                            <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                <img src="../assets/mappageimg1.png" alt="Temperature Map" class="img-fluid rounded">
+                                <div class="img-overlay">
+                                    <div class="circle-icon">
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <p class="mt-2 fw-medium">Temperature Map</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="p-2">
+                        <div class="img-container">
+                            <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                <img src="../assets/mappageimg2.png" alt="Cloud Map" class="img-fluid rounded">
+                                <div class="img-overlay">
+                                    <div class="circle-icon">
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <p class="mt-2 fw-medium">Cloud Map</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="p-2">
+                        <div class="img-container">
+                            <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                <img src="../assets/mappageimg3.png" alt="Wind Map" class="img-fluid rounded">
+                                <div class="img-overlay">
+                                    <div class="circle-icon">
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <p class="mt-2 fw-medium">Wind Map</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/in.png" alt="India" width="24" class="me-2"> India
+                    </button>
+                </div>
+
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/de.png" alt="Germany" width="24" class="me-2"> Germany
+                    </button>
+                </div>
+
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/dk.png" alt="Denmark" width="24" class="me-2"> Denmark
+                    </button>
+                </div>
+
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/fr.png" alt="Denmark" width="24" class="me-2"> France
+                    </button>
+                </div>
+
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/pl.png" alt="Denmark" width="24" class="me-2"> Poland
+                    </button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/ch.png" alt="Denmark" width="24" class="me-2"> Switzerland
+                    </button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/nl.png" alt="Denmark" width="24" class="me-2"> Netherlands
+                    </button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/us.png" alt="Denmark" width="24" class="me-2"> New York
+                    </button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-light w-100 shadow-sm text-start">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="Denmark" width="24" class="me-2"> London
+                    </button>
+                </div>
+            </div>
+
+            <div class="container">
+                <h4 class="text-center mb-4 fw-bold asiamap">Asia Map Finder</h4>
+
+                <div class="row text-center mb-5">
+                    <div class="col-md-4 mb-3">
+                        <div class="p-2">
+                            <div class="img-container">
+                                <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                    <img src="../assets/mappageimg1.png" alt="Temperature Map"
+                                        class="img-fluid rounded">
+                                    <div class="img-overlay">
+                                        <div class="circle-icon">
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="mt-2 fw-medium">Temperature Map</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="p-2">
+                            <div class="img-container">
+                                <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                    <img src="../assets/mappageimg2.png" alt="Cloud Map" class="img-fluid rounded">
+                                    <div class="img-overlay">
+                                        <div class="circle-icon">
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="mt-2 fw-medium">Cloud Map</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="p-2">
+                            <div class="img-container">
+                                <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                    <img src="../assets/mappageimg3.png" alt="Wind Map" class="img-fluid rounded">
+                                    <div class="img-overlay">
+                                        <div class="circle-icon">
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="mt-2 fw-medium">Wind Map</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/in.png" alt="India" width="24" class="me-2"> India
+                        </button>
+                    </div>
+
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/de.png" alt="Germany" width="24" class="me-2"> Germany
+                        </button>
+                    </div>
+
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/dk.png" alt="Denmark" width="24" class="me-2"> Denmark
+                        </button>
+                    </div>
+
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/fr.png" alt="Denmark" width="24" class="me-2"> France
+                        </button>
+                    </div>
+
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/pl.png" alt="Denmark" width="24" class="me-2"> Poland
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/ch.png" alt="Denmark" width="24" class="me-2"> Switzerland
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/nl.png" alt="Denmark" width="24" class="me-2"> Netherlands
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/us.png" alt="Denmark" width="24" class="me-2"> New York
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-light w-100 shadow-sm text-start">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="Denmark" width="24" class="me-2"> London
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h4 class="text-center mb-4 fw-bold africamap">Africa Map Finder</h4>
+
+                    <div class="row text-center mb-5">
+                        <div class="col-md-4 mb-3">
+                            <div class="p-2">
+                                <div class="img-container">
+                                    <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                        <img src="../assets/mappageimg1.png" alt="Temperature Map"
+                                            class="img-fluid rounded">
+                                        <div class="img-overlay">
+                                            <div class="circle-icon">
+                                                <span>+</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="mt-2 fw-medium">Temperature Map</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="p-2">
+                                <div class="img-container">
+                                    <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                        <img src="../assets/mappageimg2.png" alt="Cloud Map" class="img-fluid rounded">
+                                        <div class="img-overlay">
+                                            <div class="circle-icon">
+                                                <span>+</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="mt-2 fw-medium">Cloud Map</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="p-2">
+                                <div class="img-container">
+                                    <a href="http://127.0.0.1:3000/html/mapdetails.html">
+                                        <img src="../assets/mappageimg3.png" alt="Wind Map" class="img-fluid rounded">
+                                        <div class="img-overlay">
+                                            <div class="circle-icon">
+                                                <span>+</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="mt-2 fw-medium">Wind Map</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/in.png" alt="India" width="24" class="me-2"> India
+                            </button>
+                        </div>
+
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/de.png" alt="Germany" width="24" class="me-2"> Germany
+                            </button>
+                        </div>
+
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/dk.png" alt="Denmark" width="24" class="me-2"> Denmark
+                            </button>
+                        </div>
+
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/fr.png" alt="Denmark" width="24" class="me-2"> France
+                            </button>
+                        </div>
+
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/pl.png" alt="Denmark" width="24" class="me-2"> Poland
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/ch.png" alt="Denmark" width="24" class="me-2">
+                                Switzerland
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/nl.png" alt="Denmark" width="24" class="me-2">
+                                Netherlands
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/us.png" alt="Denmark" width="24" class="me-2"> New
+                                York
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-light w-100 shadow-sm text-start">
+                                <img src="https://flagcdn.com/w40/gb.png" alt="Denmark" width="24" class="me-2"> London
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+
+    <!-- Mappagefooter -->
+    <footer class="footer bg-black text-white py-4 position-relative">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center mb-4">
+                <img src="../assets/mainlogo.png" class="footerlogo me-2" alt="">
+                <span class="footersp1 m-0">Weathercoach</span>
+            </div>
+
+            <ul class="nav justify-content-center flex-wrap mb-3">
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/index.html"
+                        class="nav-link px-2 text-white">Home</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/climatechange.html"
+                        class="nav-link px-2 text-white">Climate Change</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/news.html"
+                        class="nav-link px-2 text-white">News</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/map.html"
+                        class="nav-link px-2 text-white">Map</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/gallery.html"
+                        class="nav-link px-2 text-white">Gallery</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:3000/html/contact.html"
+                        class="nav-link px-2 text-white">Contact</a></li>
+            </ul>
+
+            <hr class="footer-line my-3">
+
+            <div class="container px-3">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4">
+                    <span class="footersp2 text-white text-center text-md-start mb-2 mb-md-0">
+                        © 2022 Weathercoach. All rights reserved
+                    </span>
+
+                    <div class="footersvgs d-flex justify-content-center justify-content-md-end gap-3">
+                        <img src="../assets/linkdinsvg.svg" alt="">
+                        <img src="../assets/instasvg.svg" alt="">
+                        <img src="../assets/twitersvg.svg" alt="">
+                        <img src="../assets/facebooksvg.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

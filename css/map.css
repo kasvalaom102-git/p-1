@@ -1,0 +1,206 @@
+/* mappagenavbar */
+
+.logo-img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    text-shadow: 2px 3px 4px rgb(0 0 0 / 34%);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-link {
+    margin: 0px 8px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #f2f2f7;
+    padding: 20px;
+}
+
+.collapse {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    padding-right: 30px;
+}
+
+.nav-link.active {
+    color: blue;
+    font-weight: 600;
+}
+
+
+/* Mappagesection2 */
+
+.section2 {
+    position: relative;
+}
+
+.sec2sp1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+}
+
+/* mappagesection3 */
+
+.section-3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+}
+
+.btn {
+    padding: 20px;
+}
+
+.btn-light {
+    background-color: rgba(255, 255, 255, 1) !important;
+    border: none;
+}
+
+.btn-light:hover {
+    box-shadow: 5px 6px 18px 1px rgba(0, 0, 0, 0.1) !important;
+    background-color: black !important;
+    color: white;
+}
+
+.asiamap {
+    margin-top: 80px;
+}
+
+.africamap {
+    margin-top: 80px;
+}
+
+.mb-5 {
+    margin-bottom: 1rem !important;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-container img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.img-container:hover .img-overlay {
+    opacity: 1;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.img-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-icon {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.img-container:hover .img-overlay {
+    opacity: 1;
+}
+
+.img-container:hover .circle-icon {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Mappagefooter */
+
+.footer {
+    background-color: black;
+}
+
+.footerlogo {
+    height: 50px;
+}
+
+.footersp1 {
+    font-size: 24px;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid white;
+    width: 97%;
+    opacity: 0.8;
+}
+
+.footersp2 {
+    font-size: 14px;
+}
+
+.footersvgs img {
+    width: 24px;
+    height: 24px;
+}

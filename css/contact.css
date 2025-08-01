@@ -1,0 +1,147 @@
+/* gallerypagenavbar */
+
+.logo-img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    text-shadow: 2px 3px 4px rgb(0 0 0 / 34%);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-link {
+    margin: 0px 8px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #f2f2f7;
+    padding: 20px;
+}
+
+.collapse {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    padding-right: 30px;
+}
+
+.nav-link.active {
+    color: blue;
+    font-weight: 600;
+}
+
+
+/* gallerypagesection2 */
+
+.section2 {
+    position: relative;
+}
+
+.sec2sp1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+}
+
+/* contactpagesection3 */
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+/* contactpagesection4 */
+
+#section4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#section4 input,
+#section4 textarea {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#section4 button.btn-primary {
+    background-color: #1e62f2;
+    border: none;
+}
+
+#section4 button.btn-primary:hover {
+    background-color: #155ce0;
+}
+
+#contactForm ::placeholder {
+    color: rgba(24, 23, 23, 0.4);
+    font-size: 12px;
+}
+
+/* contactpagesection5 */
+
+#sec5 {
+    position: relative;
+    padding: 74px 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.glass-bg {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-img-custom {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* contactpagefooter */
+
+.footer {
+    background-color: black;
+}
+
+.footerlogo {
+    height: 50px;
+}
+
+.footersp1 {
+    font-size: 24px;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid white;
+    width: 97%;
+    opacity: 0.8;
+}
+
+.footersp2 {
+    font-size: 14px;
+}
+
+.footersvgs img {
+    width: 24px;
+    height: 24px;
+}
