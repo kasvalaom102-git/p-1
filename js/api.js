@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
 document.addEventListener("DOMContentLoaded", function () {
     const apiKey = "55bd2eaa51d3feff5d8ea9e3c83f441f";
     const city = "surat";
