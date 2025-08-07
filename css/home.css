@@ -135,6 +135,8 @@
     top: 76px;
     font-size: 13px;
     font-weight: 500;
+    width: 100px;
+
 }
 
 .sec3infoimg {
@@ -149,7 +151,7 @@
     position: absolute;
     left: 231px;
     top: 96px;
-    width: 222px;
+    width: 246px;
     border: 1px solid black;
     opacity: 0.5;
 }
@@ -194,6 +196,8 @@
     top: 128px;
     font-size: 12px;
     font-weight: 500;
+    width: 57px;
+
 }
 
 .sec3c2 {
@@ -271,7 +275,7 @@
     background-color: white;
     color: black;
     padding: 2px 6px;
-    border-radius: 4px;
+    border-radius: 29px;
 }
 
 .sec5card:hover span:not(.sec5sp1):not(.sec5sp2) {
@@ -306,7 +310,7 @@
 
 .sec5sp2 {
     background-color: rgba(254, 208, 201, 1);
-    padding: 3px 0px 0px 9px;
+    padding: 3px 0px 0px 7px;
     border-radius: 30px;
     width: 63px;
     position: absolute;
@@ -375,13 +379,6 @@
     justify-content: space-around;
 }
 
-.img2sec5 {
-    position: absolute;
-    height: 100px;
-    left: 59px;
-    top: 18px;
-}
-
 /* homesection6 */
 
 .section6 {
@@ -426,7 +423,7 @@
 
 .sec6sp1 {
     position: absolute;
-    left: 18px;
+    left: 32px;
     top: 116px;
     font-size: 31px;
     color: white;
@@ -434,7 +431,7 @@
 
 .sec6sp2 {
     position: absolute;
-    left: 45px;
+    left: 28px;
     top: 174px;
     font-size: 37px;
     color: white;
@@ -461,7 +458,7 @@ a.text-white:hover {
 
 .bigca {
     font-weight: 300;
-    gap: 0rem !important;
+    gap: 2rem !important;
 }
 
 .weather-card img {

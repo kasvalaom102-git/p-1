@@ -201,60 +201,29 @@
             </ul>
         </div>
 
-        <div class="sec5cards">
+        <div class="sec5cards" id="sec5cards">
+            <!-- Cards will be injected dynamically from API -->
             <div class="sec5card">
                 <img class="img1sec5" src="../assets/img1sec5.png" alt="">
                 <span class="sec5sp1">Sun</span>
                 <span class="sec5sp2">5:00PM</span>
                 <span class="sec5sp3">20℃</span>
                 <span class="sec5sp4">25℃</span>
-                <img class="sec4we" src="../assets/sec4wether.svg" alt="">
+
+                <!-- ✅ Custom weather icon (left of wind speed) -->
+                <img class="sec4we" src="../assets/sec4wether.svg" alt="custom wind icon">
                 <span class="sec5sp5">45Km/h</span>
-                <img class="sec5sun" src="../assets/sec4sun.svg" alt="">
+
+                <!-- ✅ Sun icon (left of humidity) -->
+                <img class="sec5sun" src="../assets/sec4sun.svg" alt="sun icon">
                 <span class="sec5sp6">70%</span>
+
                 <span class="sec5sp7">Cloudy</span>
             </div>
 
-            <div class="sec5card">
-                <img class="img2sec5" src="../assets/img2sec5.png" alt="">
-                <span class="sec5sp1">Mon</span>
-                <span class="sec5sp2">6:00PM</span>
-                <span class="sec5sp3">20℃</span>
-                <span class="sec5sp4">25℃</span>
-                <img class="sec4we" src="../assets/sec4wether.svg" alt="">
-                <span class="sec5sp5">45Km/h</span>
-                <img class="sec5sun" src="../assets/sec4sun.svg" alt="">
-                <span class="sec5sp6">70%</span>
-                <span class="sec5sp7">Cloudy</span>
-            </div>
-
-            <div class="sec5card">
-                <img class="img1sec5" src="../assets/img3sec5.png" alt="">
-                <span class="sec5sp1">Tue</span>
-                <span class="sec5sp2">5:00PM</span>
-                <span class="sec5sp3">20℃</span>
-                <span class="sec5sp4">25℃</span>
-                <img class="sec4we" src="../assets/sec4wether.svg" alt="">
-                <span class="sec5sp5">45Km/h</span>
-                <img class="sec5sun" src="../assets/sec4sun.svg" alt="">
-                <span class="sec5sp6">70%</span>
-                <span class="sec5sp7">Cloudy</span>
-            </div>
-
-            <div class="sec5card">
-                <img class="img1sec5" src="../assets/img1sec5.png" alt="">
-                <span class="sec5sp1">Wed</span>
-                <span class="sec5sp2">5:00PM</span>
-                <span class="sec5sp3">20℃</span>
-                <span class="sec5sp4">25℃</span>
-                <img class="sec4we" src="../assets/sec4wether.svg" alt="">
-                <span class="sec5sp5">45Km/h</span>
-                <img class="sec5sun" src="../assets/sec4sun.svg" alt="">
-                <span class="sec5sp6">70%</span>
-                <span class="sec5sp7">Cloudy</span>
-            </div>
         </div>
     </section>
+
 
     <!-- homesection6 -->
 
@@ -269,15 +238,15 @@
                     <div class="sec6imgcard">
                         <img class="paris1sec6" src="../assets/sec6paris.png" alt="">
                         <img class="sec6sun" src="../assets/sun.png" alt="">
-                        <span class="sec6sp1">Paris(sun)</span>
-                        <span class="sec6sp2">20℃</span>
+                        <span class="sec6sp1" id="city1">surat</span>
+                        <span class="sec6sp2" id="temp1">--℃</span>
                     </div>
 
                     <div class="sec6imgcard">
                         <img class="paris1sec6" src="../assets/sec6paris2.png" alt="">
                         <img class="sec6sun" src="../assets/sec3infoimg.png" alt="">
-                        <span class="sec6sp1">Paris(sun)</span>
-                        <span class="sec6sp2">20℃</span>
+                        <span class="sec6sp1" id="city2">surat</span>
+                        <span class="sec6sp2" id="temp2">--℃</span>
                     </div>
                 </div>
             </div>
@@ -298,17 +267,18 @@
 
             <div class="d-flex flex-column flex-md-row justify-content-center align-items-start gap-4">
 
+                <!-- Sunrise + Sunset + Wind + Rain -->
                 <div class="d-flex flex-column align-items-center gap-3">
 
+                    <!-- Sunrise + Sunset -->
                     <div class="d-flex flex-row gap-3">
-
                         <div class="position-relative rounded-4 overflow-hidden" style="width: 200px; height: 200px;">
                             <img src="../assets/sec7sunrise.png" alt="Sunrise"
                                 class="w-100 h-100 object-fit-cover rounded-4">
                             <div
                                 class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white surica">
                                 <div class="fw-medium fs-5">Sunrise</div>
-                                <div class="fs-4 fw-bold">6:42 AM</div>
+                                <div class="fs-4 fw-bold" id="sunriseTime">--:--</div>
                             </div>
                         </div>
 
@@ -318,80 +288,51 @@
                             <div
                                 class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white surica">
                                 <div class="fw-medium fs-5">Sunset</div>
-                                <div class="fs-4 fw-bold">6:42 AM</div>
+                                <div class="fs-4 fw-bold" id="sunsetTime">--:--</div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Wind + Rain -->
                     <div class="weather-card text-white p-4 rounded-4"
                         style="background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); width: 100%; max-width: 420px;">
 
                         <div class="d-flex justify-content-between mb-3 flex-wrap">
                             <div class="d-flex align-items-center gap-2 mb-2">
-                                <img src="../assets/sec4wether.svg" alt="Rain" width="32">
-                                <div>Wind 3km/H</div>
+                                <img src="../assets/sec4wether.svg" alt="Wind" width="32">
+                                <div>Wind <span id="windSpeed1">--</span> km/h</div>
                             </div>
                             <div class="d-flex align-items-center gap-2 mb-2">
-                                <img src="../assets/sec4wether.svg" alt="Rain" width="32">
-                                <div>Wind 3km/H</div>
+                                <img src="../assets/sec4wether.svg" alt="Wind" width="32">
+                                <div>Wind <span id="windSpeed2">--</span> km/h</div>
                             </div>
                         </div>
 
                         <div class="d-flex justify-content-between flex-wrap">
                             <div class="d-flex align-items-center gap-2 mb-2">
-                                <img src="../assets/sec4sun.svg" alt="Rain %" width="32">
-                                <div>Rain 78%</div>
+                                <img src="../assets/sec4sun.svg" alt="Rain" width="32">
+                                <div>Rain <span id="rainPercent1">--</span>%</div>
                             </div>
                             <div class="d-flex align-items-center gap-2 mb-2">
-                                <img src="../assets/sec4sun.svg" alt="Rain %" width="32">
-                                <div>Rain 78%</div>
+                                <img src="../assets/sec4sun.svg" alt="Rain" width="32">
+                                <div>Rain <span id="rainPercent2">--</span>%</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Temperature & Hourly Forecast Cards -->
                 <div class="rounded-4 p-4 text-white"
                     style="max-width: 500px; width: 100%; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.2);">
 
                     <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4">
-                        <h2 class="fw-bold mb-0">20°C <span class="fw-normal fs-4">20°C</span></h2>
+                        <h2 class="fw-bold mb-0" id="currentTemp">--°C <span class="fw-normal fs-4"
+                                id="feelsLike">--°C</span></h2>
                     </div>
 
-                    <div class="d-flex justify-content-between flex-wrap gap-1 bigca">
-                        <div class="d-flex flex-column align-items-center gap-2 text-center">
-                            <img src="../assets/sec4wether.svg" alt="Rain" width="32" style="filter: invert(1);">
-                            <div>26°C</div>
-                            <div>1:00 PM</div>
-                            <div class="small">Light Rain</div>
-                        </div>
-
-                        <div class="d-flex flex-column align-items-center gap-2 text-center">
-                            <img src="../assets/ba+sun.svg" alt="Cloudy" width="32">
-                            <div>28°C</div>
-                            <div>1:00 PM</div>
-                            <div class="small">Cloudy</div>
-                        </div>
-
-                        <div class="d-flex flex-column align-items-center gap-2 text-center">
-                            <img src="../assets/ba+cha.svg" alt="Cloudy" width="32">
-                            <div>27°C</div>
-                            <div>1:00 PM</div>
-                            <div class="small">Cloudy</div>
-                        </div>
-
-                        <div class="d-flex flex-column align-items-center gap-2 text-center">
-                            <img src="../assets/ba.svg" alt="Sunny" width="32">
-                            <div>26°C</div>
-                            <div>1:00 PM</div>
-                            <div class="small">Sunny</div>
-                        </div>
-
-                        <div class="d-flex flex-column align-items-center gap-2 text-center">
-                            <img src="../assets/sec4wether.svg" alt="Rain" width="32" style="filter: invert(1);">
-                            <div>26°C</div>
-                            <div>1:00 PM</div>
-                            <div class="small">Light Rain</div>
-                        </div>
+                    <!-- Forecast Cards (Dynamic) -->
+                    <div class="d-flex justify-content-between flex-wrap gap-1 bigca" id="forecastCards">
+                        <!-- Forecast cards will be inserted here dynamically -->
                     </div>
 
                     <div class="mt-4">
@@ -517,7 +458,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/home.js"></script>
     <script src="../js/api.js"></script>
 </body>
 
